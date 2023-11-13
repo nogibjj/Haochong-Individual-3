@@ -13,7 +13,7 @@ def load(dataset="dbfs:/FileStore/individual_project3/wc-20140609-140000.csv",
     serve_times_df = serve_times_df.withColumn("id", monotonically_increasing_id())
 
     # transform into a delta lakes table and store it 
-    serve_times_df.write.format("delta").mode("overwrite").saveAsTable("w609_delta")
+    serve_times_df.write.format("delta").mode("overwrite").saveAsTable("wc609_delta")
     event_times_df.write.format("delta").mode("overwrite").saveAsTable("wc613_delta")
     
     num_rows = serve_times_df.count()
