@@ -2,7 +2,7 @@
 This is a repo template for course 706_Data_Engineering Week 10 Mini Project. I use a datset about the prediction of the world cup. First of all, I define functions called `extract` to get data from url. Then, use `load` to load data. After that, I use `describe` to show the basic information of my dataset. Then, I create afunction called `group_win_prob_query` and `transform` to fulfill our requirement. Consequently, I use `main.py` to use my function in `lib.py`, and use `test_main.py` to test my `main.py`. Finally, I use Action to run `Makefile` and got a 100% pass. 
 
 Important files:
-* `lib.py`
+* `extract.py`
 * `main.py`
 * `dataset`
 * `test_main.py`
