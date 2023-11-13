@@ -2,12 +2,9 @@
 Test goes here
 
 """
-"""
-Test databricks fucntionaility
-"""
 import requests
-from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()

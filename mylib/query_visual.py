@@ -34,7 +34,9 @@ def vis():
         print("No data available. Please investigate.")
     plt.figure(figsize=(15, 8))  # Adjusted figure size
 
-    pandas_df = query.select("avg_soccer_power_in_609", "avg_soccer_power_in_613", "group").toPandas()
+    pandas_df = query.select("avg_soccer_power_in_609", 
+                             "avg_soccer_power_in_613", 
+                             "group").toPandas()
 
     # Plot a bar plot
     plt.figure(figsize=(15, 8))
