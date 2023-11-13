@@ -34,12 +34,12 @@ def vis():
         print("No data available. Please investigate.")
     plt.figure(figsize=(15, 8))  # Adjusted figure size
 
-    pandas_df = query.select("avg_soccer_power_in_609", "group").toPandas()
+    pandas_df = query.select("avg_soccer_power_in_609", "avg_soccer_power_in_613", "group").toPandas()
 
     # Plot a bar plot
     plt.figure(figsize=(15, 8))
     plt.bar(pandas_df["group"], pandas_df["avg_soccer_power_in_609"], color='skyblue')
-    plt.title("Avg Soccer Power in Group by Group")
+    plt.title("Avg Soccer Power in Group by 609 Group")
     plt.xlabel("Group")
     plt.ylabel("Avg Soccer Power in Group")
     plt.show()
