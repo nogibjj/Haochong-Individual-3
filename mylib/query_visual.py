@@ -39,7 +39,7 @@ def vis():
     # Plot a bar plot
     plt.figure(figsize=(15, 8))
     plt.bar(pandas_df["group"], pandas_df["avg_soccer_power_in_609"], color='skyblue')
-    plt.title("Avg Soccer Power in Group by 609 Group")
+    plt.title("Avg Soccer Power in Group by Group on 609")
     plt.xlabel("Group")
     plt.ylabel("Avg Soccer Power in Group")
     plt.show()
