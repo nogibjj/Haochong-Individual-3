@@ -1,4 +1,4 @@
-# Haochong-individual-3 
+# Haochong-individual-3 [![CI](https://github.com/nogibjj/Haochong-Individual-3/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Haochong-Individual-3/actions/workflows/cicd.yml)
 This is a repo template for course 706_Data_Engineering Individual Project 3. I use two datsets about the prediction of the world cup on 06/09 and 06/13. First of all, I define function called `extract` to get data from url. Then, use `transform_load.py` to transform data into delta lakes tables and load data. After that, I use `query_visual` to query my datasets, run that predefined SQL query on a Spark DataFrame and plot the results. Then, I create `job.py` to see if the job was triggered successfully. Meanwhile, I create a ETL data pipeline with automated trigger in databricks. In the end, I use `main.py` to use all my functions under `mylib`, and use `test_main.py` to test my `main.py`. Finally, I use Action to run `Makefile` and got a 100% pass. 
 
 Important files:
