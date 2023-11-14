@@ -86,6 +86,13 @@ Important files:
 ![Alt text](qv2.png)
 
 ## Video demo link:
+https://youtu.be/SFQ4sV8_pU8
+
+## Reference:
+https://hypercodelab.com/docs/spark/databricks-platform/global-env-variables/
+https://docs.databricks.com/en/dbfs/filestore.html
+https://learn.microsoft.com/en-us/azure/databricks/delta/
+
 
 
 
