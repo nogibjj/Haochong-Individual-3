@@ -1,5 +1,5 @@
 from mylib.extract import extract
-from mylib.load import load
+from mylib.transform_load import load
 from mylib.query_visual import query_transform, vis
 import os 
 
